@@ -109,7 +109,8 @@ nav ul li{
   float: left;
   width: 25%;
   padding: 10px;
-  text-align: center;
+  text-align: justify;
+  height: auto;
 }
 
 /* Clear floats after the columns */
@@ -117,4 +118,5 @@ nav ul li{
   content: "";
   display: table;
   clear: both;
+
 }
