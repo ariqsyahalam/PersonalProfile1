@@ -17,11 +17,13 @@ nav{
 ul{
   list-style-type: none;
   float: right;
+  color: black;
 }
 
 nav ul li{
   display: inline-block;
   padding-right: 40px;
+  list-style: none;
 
 }
 
