@@ -2,59 +2,61 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title> Reyhan Ariq Syahalam</title>
+    <title>R A S i s M e !</title>
     <link rel="shortcut icon" type="image/x-icon" href="img\titlelogo.png" />
-    <link rel="stylesheet" type="text/css" href="src/style.css">
+    <link rel="stylesheet" type="text/css" href="src/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav>
-      <img id="logo" src="img/logomerah.png" alt="" height="50px">
-      <ul>
-        <li> <a href="about.html">About</a></li>
-        <li>Journal</li>
-        <li>FAQs</li>
-        <li>Contact</li>
-      </ul>
+<!-- IDEA: THIS IS NAV BAR  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a href="index.html"><img src="img\logomerah.png" alt="" style="height: 48px; padding-left:64px"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown" style="padding-left:512px">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown link
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </div>
     </nav>
+
     <p></p>
-
-
-    <section id="section-intro">
-    <div id="gambar-intro">
-  		<img src="img\titlelogo.png">
-  	</div>
-      <div id="intro">
-			   <h2>Hello,</h2>
-         <h1>I'm Reyhan Ariq Syahalam</h1>
-			   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			   <button class="call-me">Know me more</button>
-		  </div>
-	  </section>
-
-
-    <h2 style="text-align: center;">My Ability</h2>
-
-<div class="row">
-  <div class="column" style="background-color:#E2E2E2;">
-    <h2>Python</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </div>
-  <div class="column" style="background-color:#FF4E3F;">
-    <h2>HTML/CSS</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </div>
-  <div class="column" style="background-color:#E2E2E2;">
-    <h2>My SQL</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </div>
-  <div class="column" style="background-color:#FF4E3F;">
-    <h2>Java</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </div>
-</div>
-
-
+<!-- IDEA:  -->
+    <div class="container">
+      <div class="row">
+        <div class="col" style="width: 128px">
+          <img src="img\final.png" alt="" style="height: 512px">
+        </div>
+        <div class="col-6">
+          <div class="jumbotron" style=" padding-top:36px; height: 512px">
+            <h1 class="display-4" style="color:red; padding-top: 32px"><b>Hello!</b></h1>
+            <p class="lead">I'm <b style="color:red">Reyhan Ariq</b>, and simple is good.</p>
+            <hr class="my-4">
+            <p>click the button below to know more about me.</p>
+            <a class="btn btn-danger" href="knowme.html" role="button">Know more</a>
+          </div>
+        </div>
+      </div>
+      <p></p>
 
 
   </body>
